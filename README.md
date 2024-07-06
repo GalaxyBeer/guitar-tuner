@@ -11,6 +11,10 @@ This repository contains a Python script for tuning a guitar by analyzing the fr
 Recording the sound for 1 second intervals and analyzes the frequency.
 Outputs the audio frequency and the analyzed note via plotting.
 
+![image](https://github.com/GalaxyBeer/guitar-tuner/assets/72799974/f04a12cf-e90e-4c0e-810e-f293474499c2)
+
+The frequency with the highest amplitude is determined, and the note closest to this frequency is found. The results are visualized on the screen and continuously updated. This method is a basic signal processing application based on frequency analysis and Fourier transformation.
+
 ## Requirements
 
 - `numpy`
